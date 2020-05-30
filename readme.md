@@ -1,6 +1,6 @@
 # IT LAB ASSIGNMENTS
 All assignments from the Internet Technology Lab for the Final(8th) Sem, NIT DGP.
->For most part I was doing this on a windows environment, so to serve HTML pages and to run JSP code I used ```Apache Tomcat Server``` (https://en.wikipedia.org/wiki/Apache_Tomcat) and for DB I used ```MySQL``` (https://en.wikipedia.org/wiki/MySQL), both are available in XAMPP Server (https://www.apachefriends.org/index.html) as a package, which makes it easier to setup both at the same time. 
+>For most part I was doing this on a windows environment, so to serve HTML pages and to run JSP code I used ```Apache Tomcat Server``` (https://en.wikipedia.org/wiki/Apache_Tomcat), for PHP I used ```Apache HTTP Server``` (https://en.wikipedia.org/wiki/Apache_HTTP_Server) and for DB I used ```MySQL``` (https://en.wikipedia.org/wiki/MySQL), both are available in XAMPP Server (https://www.apachefriends.org/index.html) as a package, which makes it easier to setup both at the same time. 
 # Questions
 1. Write an HTML program to create your own website using the following HTML features:
     i) Hyperlink
@@ -44,8 +44,8 @@ After filling all the details, there should be a SUBMIT button, while clicking t
 | 1 | "index.html"| The folder also contains some extra tasks which were given in lab |
 | 2 | "index.html" | - |
 | 3 | "index.html" | Error handeling is not obvious, undefined reference has been made to ```"undefinedelement"``` |
-| 4 |  |
-| 5 |  |
-| 6 |  |
-| 7 |  |
-| 8 | |
+| 4 | "index.html" | Styles are in a seperate file "styles.css" |
+| 5 | "server.java", "client.java" | ```server.java``` is meant to be started before ```client.java``` |
+| 6 | "connect.java" | Pretty straighforward - Tries to connect to a website else throws error |
+| 7 | "index.php" | The processing also happens in the same file (Apache HTTP Server required) |
+| 8 | "index.jsp" | Java used instead of JSP, because no time... idk :( |
