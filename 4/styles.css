@@ -1,7 +1,21 @@
 /* colors, backgrounds, borders, margins, paddings, height-width, text, fonts, links, list, tables, positions and image(s) */
 body{
-    background-color: tomato;
+    background-color: orange
 }
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+.comic{
+    font-family: 'Comic Sans MS';
+}
+
+.arial{
+    font-family: 'Arial';
+}
+
 .container{
     background-color: white;
     width: 80%;
@@ -9,7 +23,61 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    border-radius: 10px;
+    border-color: red;
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
 }
 .center{
     text-align: center;
+}
+
+#forimage{
+    background-image: url('image1.jpg');
+    background-size: cover;
+    height: 100px;
+    width:  150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+color:red;
+}
+
+a:visited {
+color: green;
+}
+
+a:hover {
+color: purple;
+}
+
+#fixedbox{
+    position: fixed;
+    border: 3px solid #73AD21;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    background-color: wheat;
+}
+
+ul{
+    list-style-position: inside;
+    list-style-type: lower-roman;
+}
+
+#styletable{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#styletable tr{
+    color: green;
+}
+
+table, th, td {
+    border: 1px solid black;
 }
