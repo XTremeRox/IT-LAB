@@ -1,0 +1,54 @@
+<!-- Write a JS to validate properly the fields of a form in the websites registration page such as implement, exception handling, 
+    a program of image rollover, prompt, alert, looping, validate email along with phone number, using regex -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 || Web-D Lab </title>
+</head>
+<body>
+    <form action="" name="myForm">
+        Email  : <input type="text" name="email" id="email">
+        Phone Number : <input type="text" id="phonenumber">
+         <button onclick="validate()">Validate</button><br><h2>InBrowser Browser : </h2>
+    </form>
+    Website address : <input type="text" id="url">
+    <button onclick="visitwebpage()">Visit Webpage</button>
+    <h2 style="color:red" id="error"></h2>
+    <a href="google.com" OnMouseOver="mouse_on('image1','image1.jpg')" OnMouseOut="mouse_out('image1','image2.png')">Put Your Mouse Here!</a>
+    <br></bt><img src="image2.png" alt="Move Here!" name="image1">
+    <script>
+        function mouse_on(img_name,img_src) {
+            document[img_name].src=img_src;
+        }
+
+        function mouse_out(img_name,img_src) {
+            document[img_name].src=img_src;
+        }
+        email = document.getElementById("email");
+        function validate(){
+            if(email.value==="" || phonenumber.value===""){
+                alert("Empty Fields!");
+            }
+            else if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email.value))
+            {
+                //correct
+                alert("Correct Email Given");
+            }else{
+                //invalid
+                prompt("Give Correct Email!");
+            }
+        }
+        url = document.getElementById("url");
+        errorbox = document.getElementById("error");
+      function visitwebpage(){
+        try {
+        undefinedelement.innerHTML = "something";
+       } catch (error) {
+           alert(error);
+       }
+      }
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+/* colors, backgrounds, borders, margins, paddings, height-width, text, fonts, links, list, tables, positions and image(s) */
+body{
+    background-color: tomato;
+}
+.container{
+    background-color: white;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.center{
+    text-align: center;
+}
