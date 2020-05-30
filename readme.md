@@ -48,4 +48,4 @@ After filling all the details, there should be a SUBMIT button, while clicking t
 | 5 | "server.java", "client.java" | ```server.java``` is meant to be started before ```client.java``` |
 | 6 | "connect.java" | Pretty straighforward - Tries to connect to a website else throws error |
 | 7 | "index.php" | The processing also happens in the same file (Apache HTTP Server required) |
-| 8 | "index.jsp" | Java used instead of JSP, because no time... idk :( |
+| 8 | "index.java" | Java used instead of JSP, because no time... idk :( |
